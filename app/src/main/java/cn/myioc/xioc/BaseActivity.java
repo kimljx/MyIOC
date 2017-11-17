@@ -15,7 +15,7 @@ public class BaseActivity  extends Activity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        InjectView.inject(this);
+        InjectUtils.inject(this);
 
     }
 }
